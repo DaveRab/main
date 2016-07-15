@@ -122,6 +122,13 @@ a {
 
 /* ==== Contact Form ==== */
 
+#contact {
+  background: #CCC;
+  padding: 1em;
+  width: 100%;
+}
+
+
 label, input {
     display: block;
 }
@@ -132,8 +139,11 @@ input, #message {
     font-size: 1em;
   }
 
-label {
-    margin-top: 10px;
+#contact label:first-child {
+    margin-top: 0;
+}
+label, button {
+    margin-top: 16px;
 }
 
 input {
@@ -155,7 +165,6 @@ input {
     border: none;
     color: #FFF;
     border-radius: 5px;
-    margin-top: 10px;
 }
 
 
@@ -201,6 +210,10 @@ input {
     padding-left: 5px;
 }
 
+.social-list {
+  margin-top: 0;
+}
+
 /* ==== ELements ==== */
 
 h1, h2, h3, h4, h5, h6, .name {
@@ -211,22 +224,21 @@ section, .greeting {
     padding: 10px 15px;
 }
 
-.contact {
-    background: #428D85;
-}
+
 
 .work {
     background: #EEE;
 
 }
 
-
-.card {
-    color: #222;
+.work, #contact {
+      color: #223;
 }
 
 footer {
     text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
 
 footer p {
@@ -240,7 +252,9 @@ footer p {
     margin: 30px auto 0;
 }
 
-.greeting ~
+.main-footer p {
+  margin-bottom: 0;
+}
 
 
 /* ==== Mobile Grid Layout ==== */
