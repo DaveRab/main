@@ -31,8 +31,8 @@
                         <li class="name left">daveRabideau&#40;&#41;&#59;</li>
                         <div class="dropdown right">
                             <li><a href="index.html">Home</a></li>
-                            <li><a href="#">Work</a></li>
-                            <li><a href="#">Contact</a></li>
+                            <li><a href="#work">Work</a></li>
+                            <li><a href="#contact">Contact</a></li>
                             <li><a href="http://www.daverabideau.com/blog">Blog</a></li>
                         </div>
                         <li class="nav-handle icon-menu"></li>
@@ -58,16 +58,21 @@
                 </section>
             </div>
         </main>
-             <section class="work card">
+             <section id="work" class="work card">
+							 <div class="row">
+								 <div class="col-6">
                     <h2>Work</h2>
                     <p>A future collection of my projects. Currently this site is my first.</p>
-                 </section>
-        <section class="contact card">
+									</div>
+								</div>
+							</section>
+        <section id="contact" class="contact card">
             <div class="row">
                  <div class="col-6">
-                       <h2>Contact</h2>
-                        <p>If you'd like to connect here's how.</p>
-                        <form id="contact" action="contactform.php" method="post">
+									 <div class="contact-wrapper">
+                       <h2>Drop Me a Line.</h2>
+											 <p>If you want to work together, or just chat in general, you can send me a message below.</p>
+                        <form id="contact-form" action="contactform.php" method="post">
                         <label for="name">Your Name:</label>
                         <input type="text" id="name" name="name">
                         <label for="email">Your Email:</label>
@@ -77,6 +82,7 @@
                         <button class="button" type="submit">Submit</button>
 												<!-- <div class="g-recaptcha" data-sitekey="6LfDUiITAAAAAF62uzzHwCbdOkYvIClBFJmKoQC9"></div> -->
 												</form>
+										</div>
                  </div>
             </div>
         </section>

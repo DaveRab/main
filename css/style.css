@@ -122,7 +122,7 @@ a {
 
 /* ==== Contact Form ==== */
 
-#contact {
+#contact-form {
   background: #CCC;
   padding: 1em;
   width: 100%;
@@ -139,11 +139,15 @@ input, #message {
     font-size: 1em;
   }
 
-#contact label:first-child {
+#contact-form label:first-child {
     margin-top: 0;
 }
 label, button {
     margin-top: 16px;
+}
+
+input, #message {
+  width: 100%;
 }
 
 input {
@@ -152,7 +156,6 @@ input {
 
 #message {
     height: 100px;
-    width: 90%;
 }
 
 .button {
@@ -231,7 +234,7 @@ section, .greeting {
 
 }
 
-.work, #contact {
+.work, #contact-form {
       color: #223;
 }
 

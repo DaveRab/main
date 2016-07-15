@@ -73,6 +73,10 @@ body {
    max-width: 300px;
 }
 
+input {
+  width: 205px;
+}
+
 
 
 /* 6 Column layout to only 90% row experiment */
@@ -120,6 +124,20 @@ body {
 
 }
 
+@media screen and (min-width: 800px) {
+
+.contact-wrapper {
+  width: 60%;
+  margin: 0 auto;
+}
+
+#contact {
+    width: 100%;
+    margin: 0 auto;
+}
+
+}
+
 /* ==== 1400px Break ==== */
 
 @media screen and (min-width: 1400px) {
@@ -128,30 +146,4 @@ body {
     width: 80%;
 }
 
-<<<<<<< HEAD
 }
-
-
-
-
-/* Original 12 column layout */
-/* ==== 768px Grid Layout ==== */
-/*
-.col-1{width: 8.33%;}
-.col-2{width: 16.66%;}
-.col-3{width: 25%;}
-.col-4{width: 33.33%;}
-.col-5{width: 41.66%;}
-.col-6{width: 50%;}
-.col-7{width: 58.33%;}
-.col-8{width: 66.66%;}
-.col-9{width: 75%;}
-.col-10{width: 83.33%;}
-.col-11{width: 91.66%;}
-.col-12{width: 100%;}
-
-
-*/
-=======
-}
->>>>>>> parent of 7778923... update responsiveness
