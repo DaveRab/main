@@ -1,0 +1,255 @@
+/* ====  Moblie Styles ==== */
+
+/* ==== Icon Import ==== */
+
+@font-face {
+    font-family: 'icomoon';
+    src:    url('../fonts/icomoon.eot?2moj1v');
+    src:    url('../fonts/icomoon.eot?2moj1v#iefix') format('embedded-opentype'),
+        url('../fonts/icomoon.ttf?2moj1v') format('truetype'),
+        url('../fonts/icomoon.woff?2moj1v') format('woff'),
+        url('../fonts/icomoon.svg?2moj1v#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+.icon-linkedin-with-circle:before {
+    content: "\e900";
+}
+.icon-menu:before {
+    content: "\e9bd";
+}
+.icon-mail4:before {
+    content: "\ea86";
+}
+.icon-google-plus3:before {
+    content: "\ea8a";
+}
+.icon-twitter3:before {
+    content: "\ea93";
+}
+.icon-github:before {
+    content: "\eab1";
+}
+
+
+
+
+
+/* ==== Main Elements ==== */
+
+* {
+    box-sizing: border-box;
+}
+
+body, button {
+    font-family: 'Roboto', Arial, sans-serif;
+}
+
+body {
+    margin: 75px 0 0 0;
+    padding: 0;
+  	background: #14766C;
+    /*background: url('../img/subtle_dots.png') repeat top left;*/
+}
+
+.main-header, .greeting {
+    text-align: center;
+}
+
+section, header, footer {
+    width: 100%;
+}
+.main-header, .main-footer {
+    background: #20313A;
+}
+
+.main-header{
+   /*background: #272F32;*/
+    position: fixed;
+    top: 0;
+    left:0;
+    z-index: 1000;
+}
+
+.main-content {
+    /*background: #FF1a1a;*/
+    position: relative;
+    width: 100%;
+}
+
+body, .main-header, .main-header a, .main-content, .social-list li {
+    color: #FFF;
+}
+
+.greeting h1 {
+    font-size: 4em;
+    margin: 40px 0;
+}
+/* ==== Links ==== */
+
+a {
+    text-decoration: none;
+}
+
+.main-header a:hover {
+    color: #BBB;
+}
+
+.main-header .name a:hover {
+    color: #FFF;
+}
+
+.social-list li:hover {
+  color: #587686;
+}
+
+/* ==== Contact Form ==== */
+
+label, input {
+    display: block;
+}
+
+input, #message {
+    border: none;
+    padding: 5px;
+    font-size: 1em;
+  }
+
+label {
+    margin-top: 10px;
+}
+
+input {
+    height: 35px;
+}
+
+#message {
+    height: 100px;
+    width: 90%;
+}
+
+.button {
+    display: block;
+    font-size: 1em;
+    width: 95px;
+    padding: 10px;
+    height: 40px;
+    background: #14AB67;
+    border: none;
+    color: #FFF;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+
+/* ==== Navigation ==== */
+
+.top-nav, .social-list {
+    list-style: none;
+    padding: 0;
+}
+
+.top-nav {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.name {
+    font-size: 1.5em;
+    font-weight: 700;
+    padding: 10px 0;
+}
+
+.nav-handle{
+    padding: 5px 0 10px 0;
+}
+
+.dropdown {
+    background: #151E26;
+    display: none;
+}
+
+.dropdown li {
+    margin-top: 5px;
+    padding: 5px;
+}
+
+.dropdown li:first-child {
+    margin-top: 0;
+}
+
+.social-list li {
+    display: inline-block;
+    font-size: 1.25em;
+    padding-left: 5px;
+}
+
+/* ==== ELements ==== */
+
+h1, h2, h3, h4, h5, h6, .name {
+    font-family: 'Droid Serif', Times, serif;
+}
+
+section, .greeting {
+    padding: 10px 15px;
+}
+
+.contact {
+    background: #428D85;
+}
+
+.work {
+    background: #EEE;
+
+}
+
+
+.card {
+    color: #222;
+}
+
+footer {
+    text-align: center;
+}
+
+footer p {
+    font-size: .75em;
+}
+
+.profile-img {
+    display: block;
+    max-width: 45%;
+    border-radius: 50%;
+    margin: 30px auto 0;
+}
+
+.greeting ~
+
+
+/* ==== Mobile Grid Layout ==== */
+
+[class*="col-"] {
+    width: 90%;
+    margin: 0 auto;
+}
+
+nav[class*="col-"] {
+    width: 100%;
+}

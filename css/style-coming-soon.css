@@ -1,0 +1,138 @@
+/* Comming Soon temp page */
+@font-face {
+    font-family: 'Junction';
+    src: url('/font/junction-bold.eot');
+    src: url('/font/junction-bold.eot?#iefix') format('embedded-opentype'),
+         url('/font/junction-bold.woff') format('woff'),
+         url('/font/junction-bold.ttf') format('truetype'),
+         url('/font/junction-bold.svg#junctionbold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+
+}
+
+.main-header, .greeting {
+   font-family: 'Junction', Arial, sans-serif; 
+}
+
+
+#wrapper {
+    width: 100%;
+    text-align: center;
+}
+
+.name {
+    font-size: 1.5em;
+}
+
+
+
+.greeting {
+    width: 100%;
+    margin: auto 0;
+    font-size: 5em;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+a[href="index.html"]:hover {
+    color: #D23C32;
+}
+
+a[href="work.html"]:hover {
+    color: #32A4A2;
+}
+
+a[href="blog.html"]:hover {
+    color: #33A232;
+}
+
+a[href="contact.html"]:hover {
+    color: #EFA245;
+}
+
+
+/*------ Navigation ------*/
+
+.top-nav {
+    margin: 20px;
+}
+
+.main-header {
+    overflow: auto;
+}
+
+.main-nav {
+    list-style: none;
+    padding: 0;
+
+}
+
+.main-nav a {
+     padding: 10px 10px;
+}
+
+.main-nav li {
+    display: inline-block;
+    padding-left: 5px;
+    
+}
+
+.main-nav li::after {
+    content: " | ";
+}
+
+.main-nav li:last-child::after, li[class~=name]::after {
+    content: "";
+}
+
+/*------ Float Layout ------*/
+
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/*------ SVG ------*/
+/*
+
+.smokestack path, .smoke path, .gear polyline, .gear circle, .building, .window circle, .window line, .door path, .door circle {
+    stroke: #000;
+    stroke-width: 3;
+    stroke-miterlimit: 10;
+}
+
+.smokestack path, .gear polyline, .gear circle, .building, .window circle, .door path, .door circle {
+    fill: #fff;
+}
+
+.window line {
+    fill: none;
+}
+
+.smoke path {
+    fill:#000;
+}
+*/

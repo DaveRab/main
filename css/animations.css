@@ -1,0 +1,113 @@
+/* -- EXAMPLE -- */
+
+/* defining the animation */
+/*
+@keyframes catFall {
+ from { background-position: center 0;}
+ to {background-position: center 1000px;}
+}
+@-webkit-keyframes catFall {
+ from { background-position: center 0;}
+ to {background-position: center 1000px;}
+}
+@-moz-keyframes catFall {
+ from { background-position: center 0;}
+ to {background-position: center 1000px;}
+}
+@-ms-keyframes catFall {
+ from { background-position: center 0;}
+ to {background-position: center 1000px;}
+}
+*/
+
+/* assigns the animation */
+
+/*
+.catsBackground {
+ animation: catFall 1s linear infinite;
+ -webkit-animation: catFall 1s linear infinite;
+ -moz-animation: catFall 1s linear infinite;
+ -ms-animation: catFall 1s linear infinite;
+} 
+*/
+
+
+/* -- smokePuff Animation -- */
+@keyframes smokePuff {
+    0% {transform: translateY(20px); opacity: 0;}
+    50% {opacity: 1.0;}
+    100% {transform: translateY(-10px); opacity: 0}
+    }
+@-webkit-keyframes smokePuff {
+    0% {transform: translateY(20px); opacity: 0;}
+    50% {opacity: 1.0;}
+    100% {transform: translateY(-10px); opacity: 0}
+    }
+@-moz-keyframes smokePuff {
+    0% {transform: translateY(20px); opacity: 0;}
+    50% {opacity: 1.0;}
+    100% {transform: translateY(-10px); opacity: 0}
+    }
+@-ms-keyframes smokePuff {
+    0% {transform: translateY(20px); opacity: 0;}
+    50% {opacity: 1.0;}
+    100% {transform: translateY(-10px); opacity: 0}
+    }
+
+#smoke {
+    animation: smokePuff 3s ease-in-out infinite;
+    -webkit-animation: smokePuff 3s ease-in-out infinite;
+    -moz-animation: smokePuff 3s ease-in-out infinite;
+    -ms-animation: smokePuff 3s ease-in-out infinite;
+} 
+
+/* -- smokeStack animation -- */
+
+@keyframes smokeStack {
+    0% {transform: scaleY(1.00);}
+    50% {transform: scaleY(.90);}
+    }
+@-webkit-keyframes smokeStack {
+    0% {transform: scaleY(1.00);}
+    50% {transform: scaleY(.90);}
+    }
+@-moz-keyframes smokeStack {
+    0% {transform: scaleY(1.00);}
+    50% {transform: scaleY(.90);}
+    }
+@-ms-keyframes smokeStack {
+    0% {transform: scaleY(1.00);}
+    50% {transform: scaleY(.90);}
+    }
+
+#smokestack path {
+    animation: smokeStack 3s ease-in-out infinite;
+    -webkit-animation: smokeStack 3s ease-in-out infinite;
+    -moz-animation: smokeStack 3s ease-in-out infinite;
+    -ms-animation: smokeStack 3s ease-in-out infinite;
+    transform-origin: center bottom;
+}
+
+/* -- gearRotate animation
+
+@keyframes gearRotate {
+    100% {transform: rotate(360deg);}
+    }
+@-webkit-keyframes gearRotate {
+    100% {transform: rotate(360deg);}
+    }
+@-moz-keyframes gearRotate {
+    100% {transform: rotate(360deg);}
+    }
+@-ms-keyframes gearRotate {
+    100% {transform: rotate(360deg);}
+    }
+
+.gear {
+    animation: gearRotate 10s linear infinite;
+    -webkit-animation: gearRotate 10s linear infinite;
+    -moz-animation: gearRotate 10s linear infinite;
+    -ms-animation: gearRotate 10s linear infinite;
+    transform-origin: center;
+}
+ -- */
